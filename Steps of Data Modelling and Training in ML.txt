@@ -1,0 +1,49 @@
+Steps of Data Modelling and Training in ML.txt
+
+
+E2E steps for any Data Science project:
+
+1)Frame the Problem Statement
+
+2)Get the data and read it
+
+3)EDA
+
+4)Preprocess
+
+5)Feature Selection/Scaling/Engeneering
+
+6)Model Training and Selection
+
+7)Tuning the model
+
+8)accuracy and metrics
+
+9)Prediction
+
+10)Deploy and Monitor
+
+
+
+
+Hints :
+
+
+1. check Target variable has imbalanced class distribution or not
+
+2. explore the features (independent variables) before trying to build a model.
+
+   first discover the features that only have two values.
+
+3. change the values of target variable. "Yes" will be 1 and "No" will be 0.
+
+4. For EDA check ## Binary categorical features and categorical features
+
+5. Do Resampling
+
+   The target variables with imbalanced class distribution is not desired for
+
+   machine learning models. I will use upsampling which means increasing the 
+
+   number of samples of the class with less samples by randomly selecting rows from it.
+
